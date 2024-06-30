@@ -1,0 +1,48 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#light {
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: #46045e;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#light .main {
+  background-color: #fff;
+}
+
+#dark .main {
+  background-color: #38004c;
+}
+
+.switch {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+}
